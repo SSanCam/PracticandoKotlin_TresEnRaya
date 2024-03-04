@@ -4,6 +4,8 @@
  */
 // TODO actualizar la partida para que los jugadores puedan reescribir sus posiciones
 //  en lugar de solo colocar 9 símbolos.
+
+// TODO intentar compactar funciones.
 fun main() {
     // Variables que necesitamos para el programa
     val tablero = Array(3) { MutableList(3) { '_' } }
